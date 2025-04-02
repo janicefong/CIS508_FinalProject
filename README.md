@@ -1,6 +1,19 @@
-Problem Definition:
-You have been engaged as a consultant by BestCard, a credit card company, to analyze a dataset they have provided. This dataset encompasses demographic and recent financial information for a sample of 30,000 of their account holders. The data is organized at the individual credit account level, ensuring each account is uniquely represented by a single row within the dataset. Each row is annotated to indicate whether the account owner defaulted in the subsequent month following a six-month historical data review period. Defaulting, in this context, means failing to meet the minimum payment requirement.
+<h2>CIS508 Machine Learning in Business Final Project </h2>
 
-Goal:
-Your primary objective is to construct a predictive model to accurately forecast the likelihood of an account defaulting in the next month.
-The dataset you will be working with is a modified version of the dataset available from the UCI Machine Learning Repository. For detailed information on the dataset, including the data dictionary, please refer to the following link: UCI Machine Learning Repository - Default of Credit Card Clients Dataset.
+<b>Problem Definition: </b> An increasing number of account holders have been failing to meet their minimum payment requirements, leading to a rise in defaults. <br/>
+<b>Goal:</b> Construct a predictive model to accurately forecast the likelihood of an account defaulting in the next month.  <br/>
+<b>Data: </b>https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+
+<b>Supervised Model used:</b> Decision Tree, Logistic Regression, Random Forest, AdaBoost Classifier,Gradient Booster, BaggingClassifier
+
+<b>Presentation slides:</b> https://github.com/janicefong/CIS508_FinalProject/blob/main/Team%202%20-%20Final%20Presentation.pptx
+
+<h3>Installation</h3>
+1. Download app.py from file <br/>
+2. Run this code in terminal !streamlit run app.py
+
+<h3>Result</h3>
+![image](https://github.com/user-attachments/assets/3082c203-36af-410d-b512-ab91f9da73cf)
+
+We choose Random Forest model as our best bet because it has a highest recall and F1-score compare to the rest. <br/>
+The reason why we are looking at the recall and F-1 score is due to imbalance data.
